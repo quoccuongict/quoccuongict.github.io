@@ -503,3 +503,7 @@ footer .information .around-web .icons i {
     color: #ffffff;
     font-size: 1.25rem;
 }
+
+a.mau:hover{
+    color: #1abc9c;
+}
