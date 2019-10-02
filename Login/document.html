@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <body>
 
 <form action="index.html" id="myForm">
-	User name: <input type="text" name="FirstName" id="fname"><br>
-	Password: <input type="text" name="LastName" id="lname"><br>
-	<input type="button" value="Submit" onclick="check()">
+	<div class="content1">
+		User name: <input class="username" type="text" name="FirstName" id="fname"><br>
+	</div>
+	<div class="content2">
+		Password: <input class="password" type="text" name="LastName" id="lname"><br>
+	</div>
+	<div class="content3">
+		<input class="login" type="button" value="Login" onclick="check()">
+	</div>
+	
 </form>
 
 <script type="text/javascript">
