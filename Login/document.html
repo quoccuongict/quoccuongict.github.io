@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="index.html" id="myForm">
+	User name: <input type="text" name="FirstName" id="fname"><br>
+	Password: <input type="text" name="LastName" id="lname"><br>
+	<input type="button" value="Submit" onclick="check()">
+</form>
+
+<script type="text/javascript">
+	function check(){
+		var firstname = document.getElementById("fname").value
+		var lastname = document.getElementById("lname").value
+		if(firstname == "abc" && lastname == "1"){
+			document.getElementById("myForm").submit();
+		}
+		else{
+			alert("Sai mật khẩu")
+		}
+	}
+</script>
+</body>
+</html>
