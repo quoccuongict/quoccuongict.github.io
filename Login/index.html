@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function readTextFile() {
+		  var rawFile = new XMLHttpRequest();
+		  rawFile.open("GET", "testing.txt", true);
+		  rawFile.onreadystatechange = function() {
+		    if (rawFile.readyState === 4) {
+		      var allText = rawFile.responseText;
+		      document.getElementById("textSection").innerHTML = allText;
+		    }
+		  }
+		  rawFile.send();
+		}
+	</script>
+</body>
+</html>
