@@ -2,20 +2,12 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="a.css">
 </head>
 <body>
-	<script type="text/javascript">
-		function readTextFile() {
-		  var rawFile = new XMLHttpRequest();
-		  rawFile.open("GET", "testing.txt", true);
-		  rawFile.onreadystatechange = function() {
-		    if (rawFile.readyState === 4) {
-		      var allText = rawFile.responseText;
-		      document.getElementById("textSection").innerHTML = allText;
-		    }
-		  }
-		  rawFile.send();
-		}
-	</script>
+	<div class="img1">
+		<h1>Hiệp Shiba</h1>
+		<img src="Shiba.jpg">
+	</div>
 </body>
 </html>
