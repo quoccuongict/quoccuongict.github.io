@@ -1,5 +1,5 @@
 img{
-	width: 500px;
+	width: 750px;
 	height: 500px;
 }
 
@@ -9,4 +9,8 @@ img{
 
 h1{
 	font-size: 700;
+}
+
+p{
+	font size: 500;
 }
